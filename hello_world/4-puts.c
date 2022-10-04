@@ -2,8 +2,8 @@
 
 /**
  * main - Entry point
- * pust return string
- * Return Always 0 (0)
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
