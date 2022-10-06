@@ -7,19 +7,22 @@
  */
 int main(void)
 {
-	int number;
+	int number = 0;
+	int contador = 0;
+	int coma = 0;
 
 	for (number = 0; number <= 9; number++)
 	{
-		if (number < 9)
+		putchar((number % 10) + '0');
+		for (coma = number; coma <= number; coma++)
 		{
-			putchar((number % 10) + '0');
-			putchar(',');
-			putchar(' ');
-		} else
-		{
-			putchar((number % 10) + '0');
+			if (coma < 9)
+			{
+				putchar(44);
+				putchar(32);
+			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
