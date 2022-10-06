@@ -7,9 +7,8 @@
  */
 int main(void)
 {
-	int number = 0;
-	int contador = 0;
-	int coma = 0;
+	int number;
+	int coma;
 
 	for (number = 0; number <= 9; number++)
 	{
