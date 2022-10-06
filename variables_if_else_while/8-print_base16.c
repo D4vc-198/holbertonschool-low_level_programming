@@ -15,7 +15,7 @@ int main(void)
 		putchar((hex1 % 10) + '0');
 		if (hex1 == 9)
 		{
-			for (hex2 = 'A'; hex2 <= 'F'; hex2++)
+			for (hex2 = 'a'; hex2 <= 'f'; hex2++)
 			{
 				putchar(hex2);
 			}
