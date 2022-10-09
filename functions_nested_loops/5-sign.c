@@ -2,20 +2,19 @@
 
 int print_sign(int n)
 {
+	int valor = 0;
 	if(n > 0)
 	{
-		return ('\n');
-		putchar('+');
-		putchar('1');
+		valor = 1;
 	}
 	if (n == 0)
 	{
-		putchar('0');
-		putchar('0');
+		valor = 0;
 	}
 	if (n < 0) 
 	{
-		putchar('-');
-		putchar('1');
+		valor = 1;
 	}
+
+	return valor;
 }
