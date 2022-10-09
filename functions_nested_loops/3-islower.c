@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include <ctype.h>
 
 /**
@@ -10,10 +9,10 @@ int _islower(int c)
 {
 	if (islower(c))
 	{
-		putchar('1');
+		putchar(1);
 	}
 	else
 	{
-		putchar('0');
+		putchar(0);
 	}
 }
