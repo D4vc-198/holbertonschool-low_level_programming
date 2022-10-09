@@ -9,20 +9,17 @@ int print_sign(int n)
 	{
 		simbol = '+';
 		valor = 1;
-		// printf("%+d", valor);
-		return (simbol, valor);
+		return ((simbol+valor));
 	}
 	if (n == 0)
 	{
 		valor = 0;
-		// printf("%d", valor);
 		return (valor);
 	}
 	else 
 	{
 		valor = 1;
 		return (1);
-		// printf("%-d", valor);
 	}
 
 }
