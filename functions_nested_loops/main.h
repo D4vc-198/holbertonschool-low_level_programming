@@ -1,4 +1,4 @@
-char *test (void);
+#include <stdio.h>
 
 void print_alphabet(void);
 
@@ -8,7 +8,7 @@ void print_alphabet(void)
 
     for (character = 'a'; character <= 'z'; character++)
     {
-        _putchar(character);
+        putchar(character);
     }
-    _putchar('\n');
+    putchar('\n');
 }
