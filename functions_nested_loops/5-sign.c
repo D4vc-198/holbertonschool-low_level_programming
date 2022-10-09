@@ -4,6 +4,7 @@ int print_sign(int n)
 {
 	if(n > 0)
 	{
+		return ("\n");
 		putchar('+');
 		putchar('1');
 	}
@@ -17,6 +18,4 @@ int print_sign(int n)
 		putchar('-');
 		putchar('1');
 	}
-
-	return(0);
 }
