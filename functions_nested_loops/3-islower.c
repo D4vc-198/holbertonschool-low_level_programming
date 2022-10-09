@@ -2,13 +2,14 @@
 #include <ctype.h>
 
 /**
- * _isLower return 1
- *
- * other case return 0
+ * _islower - detect char lower
+ * @c: is a char
+ * Return: 1 is lower - 0 not lower
 */
 int _islower(int c)
 {
 	int valor;
+
 	if (islower(c))
 	{
 		valor = 1;
@@ -17,5 +18,5 @@ int _islower(int c)
 	{
 		valor = 0;
 	}
-	return  valor;
+	return  (valor);
 }
