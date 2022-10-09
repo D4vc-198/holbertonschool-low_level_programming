@@ -20,4 +20,5 @@ int print_sign(int n)
 		printf("%-d", valor);
 	}
 
+	return (valor);
 }
