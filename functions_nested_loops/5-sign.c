@@ -7,9 +7,7 @@ int print_sign(int n)
 	if(n > 0)
 	{
 		valor = 1;
-		putchar('+');
-		putchar(valor);
-		return ('\n');
+		printf("%-d", valor);
 	}
 	if (n == 0)
 	{
