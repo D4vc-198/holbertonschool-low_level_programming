@@ -10,10 +10,12 @@ int _islower(int c)
 {
 	if (islower(c))
 	{
-		printf("1");
+		c = 1;
+		return c;
 	}
 	else
 	{
-		printf("0");
+		c = 0;
+		return c;
 	}
 }
