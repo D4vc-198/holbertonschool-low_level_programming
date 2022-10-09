@@ -8,14 +8,15 @@
 */
 int _islower(int c)
 {
+	int valor;
 	if (islower(c))
 	{
-		putchar(1);
+		valor = 1;
 	}
 	else
 	{
-		putchar(0);
+		valor = 0;
 	}
 	putchar('\n');
-	return (0);
+	return  valor;
 }
