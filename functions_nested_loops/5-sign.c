@@ -3,13 +3,11 @@
 int print_sign(int n)
 {
 	int valor;
-	char simbol;
 
 	if(n > 0)
 	{
-		simbol = '+';
 		valor = 1;
-		return ((simbol+valor));
+		return ("%+d", valor);
 	}
 	if (n == 0)
 	{
@@ -19,7 +17,7 @@ int print_sign(int n)
 	else 
 	{
 		valor = 1;
-		return (1);
+		return ("%-d", valor);
 	}
 
 }
