@@ -7,7 +7,7 @@ int print_sign(int n)
 	if(n > 0)
 	{
 		valor = 1;
-		return (("%+d", valor));
+		return (("%+d" + valor));
 	}
 	if (n == 0)
 	{
@@ -17,7 +17,7 @@ int print_sign(int n)
 	else 
 	{
 		valor = 1;
-		return (("%-d", valor));
+		return (("%-d" + valor));
 	}
 
 }
