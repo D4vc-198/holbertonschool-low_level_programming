@@ -21,7 +21,5 @@ int print_sign(int n)
 		character = ('-');
 	}
 
-	putchar(character);
-	putchar(valor);
-	return ("\n");
+	return (character, valor);
 }
