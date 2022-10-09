@@ -20,8 +20,8 @@ int print_sign(int n)
 		valor = 1;
 		character = ('-');
 	}
-	
+
 	putchar(character);
 	putchar(valor);
-	return (salto);
+	return ("\n");
 }
