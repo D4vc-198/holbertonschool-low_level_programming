@@ -6,7 +6,7 @@ int print_sign(int n)
 
 	if(n > 0)
 	{
-		valor = '+';
+		valor = '+1';
 	}
 	if (n == 0)
 	{
@@ -14,7 +14,7 @@ int print_sign(int n)
 	}
 	else 
 	{
-		valor = '-';
+		valor = '-1';
 	}
 
 	return (valor);
