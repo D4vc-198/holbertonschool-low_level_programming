@@ -10,12 +10,10 @@ int _islower(int c)
 {
 	if (islower(c))
 	{
-		c = 1;
-		return c;
+		puts("1");
 	}
 	else
 	{
-		c = 0;
-		return c;
+		puts("0");
 	}
 }
