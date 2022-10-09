@@ -2,24 +2,20 @@
 
 int print_sign(int n)
 {
-	int valor = 0;
-	char character;
-	char salto = 'LF';
+	char* valor;
+	
 	if(n > 0)
 	{
-		valor = 1;
-		character = '+';
+		valor = "+1";
 	}
 	if (n == 0)
 	{
-		valor = 0;
-		character = ('0');
+		valor = "00";
 	}
 	if (n < 0) 
 	{
-		valor = 1;
-		character = ('-');
+		valor = "-1";
 	}
 
-	return (character, valor);
+	return (valor);
 }
