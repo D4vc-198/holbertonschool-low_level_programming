@@ -10,10 +10,10 @@ int _islower(int c)
 {
 	if (islower(c))
 	{
-		puts("1");
+		putchar('1');
 	}
 	else
 	{
-		puts("0");
+		putchar('0');
 	}
 }
