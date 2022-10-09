@@ -7,17 +7,17 @@ int print_sign(int n)
 	if(n > 0)
 	{
 		valor = 1;
-		printf("%+d");
+		printf("%+d", valor);
 	}
 	if (n == 0)
 	{
 		valor = 0;
-		printf("%d");
+		printf("%d", valor);
 	}
 	else 
 	{
 		valor = 1;
-		printf("%-d");
+		printf("%-d", valor);
 	}
 
 }
