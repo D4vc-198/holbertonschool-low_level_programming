@@ -6,14 +6,19 @@ int print_sign(int n)
 
 	if(n > 0)
 	{
-		return ("+1");
+		valor = 1;
+		printf("%+f", valor);
 	}
 	if (n == 0)
 	{
 		valor = 0;
+		printf("%d", valor);
 	}
 	else 
 	{
-		valor = '-';
+		valor = 1;
+		printf("%-f", valor);
 	}
+
+	return (0);
 }
