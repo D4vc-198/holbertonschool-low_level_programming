@@ -5,6 +5,7 @@ int print_sign(int n)
 	int valor = 0;
 	if(n > 0)
 	{
+		putchar('+');
 		valor = 1;
 	}
 	if (n == 0)
