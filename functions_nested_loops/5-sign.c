@@ -4,16 +4,17 @@ int print_sign(int n)
 {
 	if(n > 0)
 	{
-		printf("%-d", 1);
+		putchar('+');
+		putchar('1');
 	}
 	if (n == 0)
 	{
-		printf("%d", 0);
+		putchar('0');
+		putchar('0');
 	}
-	else 
+	if (n < 0) 
 	{
-		printf("%-d", 1);
+		putchar('-');
+		putchar('1');
 	}
-
-	return (0);
 }
