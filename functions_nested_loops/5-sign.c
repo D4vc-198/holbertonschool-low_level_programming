@@ -6,8 +6,7 @@ int print_sign(int n)
 	
 	if(n > 0)
 	{
-		valor = 1;
-		return printf("%+d", valor);
+		return printf("%+d", 1);
 	}
 	if (n == 0)
 	{
