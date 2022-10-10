@@ -1,11 +1,19 @@
-#include <stdio.h>
+#include <limits.h>
+#include "main.h"
 
+/**
+ * main - check the code for Holberton School students.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-    signed int valor;
-    valor = 0b111100000110010;
-    // valor = 0b00110101;
-    printf("%d", valor);
-    return (valor);
-    
+	int r;
+
+	r = print_sign(98);
+	if (r < 0)
+		r *= -1;
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
 }
