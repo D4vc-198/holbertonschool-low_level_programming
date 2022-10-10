@@ -6,6 +6,7 @@ int print_sign(int n)
 	
 	if(n > 0)
 	{
+		putchar('+');
 		return 1;
 	}
 	if (n == 0)
@@ -15,8 +16,8 @@ int print_sign(int n)
 	}
 	if (n < 0) 
 	{
-		valor = 1;
-		return printf("%-d", valor);
+		valor = -1;
+		return valor;
 	}
 
 	return (0);
