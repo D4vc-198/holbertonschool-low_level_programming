@@ -11,7 +11,7 @@ int print_sign(int n)
 	if (n == 0)
 	{
 		valor = 0;
-		return 0;
+		return 00;
 	}
 	if (n < 0) 
 	{
