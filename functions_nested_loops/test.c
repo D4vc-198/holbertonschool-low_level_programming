@@ -2,9 +2,10 @@
 
 int main(void)
 {
-    int valor;
-    
-    valor = +1;
-    return printf("%+d", valor);
+    signed int valor;
+    valor = 0b111100000110010;
+    // valor = 0b00110101;
+    printf("%d", valor);
+    return (valor);
     
 }
