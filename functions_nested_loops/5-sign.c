@@ -2,16 +2,17 @@
 
 int print_sign(int n)
 {
-	int valor;
+	unsigned int valor;
 	
 	if(n > 0)
 	{
-		printf("%+d", 1);
+		valor = 1;
+		return valor;
 	}
 	if (n == 0)
 	{
 		valor = 0;
-		return printf("%d", valor);
+		return 0;
 	}
 	if (n < 0) 
 	{
@@ -19,5 +20,5 @@ int print_sign(int n)
 		return valor;
 	}
 
-	return (0);
+	return (valor);
 }
