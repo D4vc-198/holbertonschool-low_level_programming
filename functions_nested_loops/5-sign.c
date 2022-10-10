@@ -19,6 +19,4 @@ int print_sign(int n)
 		valor = -1;
 		return valor;
 	}
-
-	return (valor);
 }
