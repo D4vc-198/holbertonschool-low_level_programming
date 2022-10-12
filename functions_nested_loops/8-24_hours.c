@@ -4,7 +4,7 @@
  * 
  * Return: always 0 (Success) 
  */
-int main(void)
+void jack_bauer(void)
 {
     int horas = 0, minutos = -1;
 
