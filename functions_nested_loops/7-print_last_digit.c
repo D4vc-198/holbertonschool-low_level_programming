@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * print_last_digit - return last digit of a num
  * @num: is a param
@@ -12,7 +12,7 @@ int print_last_digit(int num)
     if (lastDigit < 0)
     {
         lastDigit = lastDigit * 1;
-        putchar('0' + lastDigit);
+        _putchar('0' + lastDigit);
         return (lastDigit);
     }
 
