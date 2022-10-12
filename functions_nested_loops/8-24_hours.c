@@ -18,7 +18,7 @@ void jack_bauer(void)
             horas++;
         }
         /* code */
-        printf("\n%.2d:%.2d", horas, minutos);
+        printf("%.2d:%.2d\n", horas, minutos);
         
         if(horas == 23 && minutos == 59)
         {
