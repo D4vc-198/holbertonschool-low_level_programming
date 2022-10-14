@@ -1,22 +1,28 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int main(void)
+/**
+ * times_table - print table x9
+*/
+void times_table(void)
 {
-	int number;
-	int contador = 0;
-	while (number <= 9)
-	{
+	int i, j;
+	int mat[10][10];
 
-		for (number = 0; number <= 9; number++)
+	for (i = 0; i < 10; i++)
+	{
+		for (j = 0; j < 10; j++)
 		{
-			printf("%d", contador);
-		}
-		contador++;
-		if(contador == 9)
-		{
-			break;
+			mat[i][j] = i * j;
 		}
 	}
 
-
+	for (i = 0; i < 10; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			printf("%d ", mat[i][j]);
+		}
+		printf("\n");
+	}
 }
