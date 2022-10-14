@@ -21,8 +21,19 @@ void times_table(void)
 	{
 		for (j = 0; j < 10; j++)
 		{
-			printf(",");
+			if (j >= 1 && j < 10)
+			{
+				if (mat[i][j] <= 9)
+				{
+					printf(",  ");
+				}
+				if (mat[i][j] >= 10)
+				{
+					printf(", ");
+				}
+			}
 			printf("%d", mat[i][j]);
+
 		}
 		printf("\n");
 	}
