@@ -7,8 +7,4 @@ all : $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 %.o : %.c
-	$(CC) -c $(SRC) $< -o $(OBJ) $@
-
-.PHONY: clean
-clean :
-	@rm -f *.o 
+	$(CC) -c $(SRC) $< -o $@
