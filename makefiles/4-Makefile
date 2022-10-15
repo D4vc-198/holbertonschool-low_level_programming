@@ -2,7 +2,7 @@ CC = gcc
 SRC = main.c school.c
 OBJ = $(SRC:.c=.o)
 NAME = school
-CFGLAS = -Wall
+CFGLAS = -Wall -Werror -Wextra -pedantic
 RM = rm -f
 
 all : $(OBJ)
