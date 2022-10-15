@@ -10,5 +10,5 @@ all : $(OBJ)
 	$(CC) -c $(SRC) $< -o $(OBJ) $@
 
 .PHONY: clean
-clean:
-	rm -f *.o
+clean :
+	@rm -f *.o 
