@@ -8,3 +8,7 @@ all : $(OBJ)
 
 %.o : %.c
 	$(CC) -c $(SRC) $< -o $(OBJ) $@
+
+.PHONY: clean
+clean:
+	rm -f *.o
