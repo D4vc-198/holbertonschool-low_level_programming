@@ -7,7 +7,7 @@ all : $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 main.o: main.c
-cc -c main.c -o main.o
+$(CC) -c main.c -o main.o
 
 school.o: school.c
-cc -c school.c -o school.o
+$(CC) -c school.c -o school.o
