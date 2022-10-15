@@ -6,7 +6,7 @@ CFGLAS = -wall
 RM = rm -f
 
 all : $(OBJ)
-	$(CC) $(CFLAGS) $(OBJ) -o school
+	$(CC) $(CFLAGS) $(OBJ) -o $(NAME)
 
 clean:
 	$(RM) *~ $(NAME)
