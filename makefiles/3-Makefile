@@ -5,7 +5,7 @@ NAME = school
 RM = rm -f
 
 all : $(OBJ)
-	$(cc) $(OBJ) - $(NAME)
+	$(CC) $(OBJ) - $(NAME)
 
 clean:
 	$(RM) *~ $(NAME)
