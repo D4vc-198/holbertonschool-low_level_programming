@@ -1,5 +1,8 @@
 #include "main.h"
-
+/**
+ * print_line - print '_' in the terminal
+ * @n: is a param
+ */
 void print_line(int n)
 {
 	int count;
