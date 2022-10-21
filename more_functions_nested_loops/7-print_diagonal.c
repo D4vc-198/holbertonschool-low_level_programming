@@ -4,13 +4,13 @@ void print_diagonal(int n)
 {
 	int i;
 
-	for (i = 0; value <= n; value++)
+	for (i = 0; i <= n; value++)
 	{
 		_putchar(' ');
 
-		if(i == value)
+		if(i == n)
 		{
-			_putchar('\');
+			_putchar('\\');
 		}
 	}
 }
