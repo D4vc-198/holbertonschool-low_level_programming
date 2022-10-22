@@ -14,27 +14,27 @@ int main(void)
 		{
 			if (numbers % 15 == 0)
 			{
-				printf("FizzBuzz ");
+				printf(" FizzBuzz");
 			}
 			else
 			{
-				printf("Fizz ");
+				printf(" Fizz");
 			}
 		}
 		else if (numbers % 5 == 0)
 		{
 			if (numbers % 15 == 0)
 			{
-				printf("FizzBuzz ");
+				printf(" FizzBuzz");
 			}
 			else
 			{
-				printf("Buzz ");
+				printf(" Buzz");
 			}
 		}
 		else
 		{
-			printf("%d ", numbers);
+			printf(" %d", numbers);
 		}
 	}
 
