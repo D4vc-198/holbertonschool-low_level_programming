@@ -13,9 +13,10 @@ int main(void)
 
 			printf("Fizz ");
 		}
-
-		 else if ( numbers % 5 == 0)
-		{
+	   	else if ( numbers % 5 == 0)
+		 {
+			 if(numbers % 15 == 0)
+				printf("FizzBuzz");
 			printf("Buzz ");
 		}
 		else 
