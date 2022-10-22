@@ -32,6 +32,10 @@ int main(void)
 				printf(" Buzz");
 			}
 		}
+		else if (numbers == 1)
+		{
+			printf("%d", numbers);
+		}
 		else
 		{
 			printf(" %d", numbers);
