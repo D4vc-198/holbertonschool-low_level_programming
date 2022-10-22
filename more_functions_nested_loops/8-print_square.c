@@ -6,7 +6,7 @@ void print_square(int size)
 	int i;
 
 	count = 0;
-	while (count <= size)
+	while (count < size)
 	{
 		for (i = 0; i <= size; i++)
 		{
