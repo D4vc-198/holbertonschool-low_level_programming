@@ -3,7 +3,6 @@
 int main(void)
 {
 	int numbers;
-	int mult3;
 
 	for (numbers = 1; numbers <= 100; numbers++)
 	{
