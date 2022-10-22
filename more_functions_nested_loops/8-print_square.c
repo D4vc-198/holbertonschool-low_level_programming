@@ -8,7 +8,7 @@ void print_square(int size)
 	count = 0;
 	while (count < size)
 	{
-		for (i = 0; i <= size; i++)
+		for (i = 0; i < size; i++)
 		{
 			_putchar('#');
 		}
