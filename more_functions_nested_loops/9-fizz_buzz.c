@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - print Fizz-Buzz
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 	int numbers;
@@ -9,17 +13,26 @@ int main(void)
 		if (numbers % 3 == 0)
 		{
 			if (numbers % 15 == 0)
+			{
 				printf("FizzBuzz ");
-
-			printf("Fizz ");
+			}
+			else
+			{
+				printf("Fizz ");
+			}
 		}
-	   	else if ( numbers % 5 == 0)
-		 {
-			 if(numbers % 15 == 0)
-				printf("FizzBuzz");
-			printf("Buzz ");
+		else if (numbers % 5 == 0)
+		{
+			if (numbers % 15 == 0)
+			{
+				printf("FizzBuzz ");
+			}
+			else
+			{
+				printf("Buzz ");
+			}
 		}
-		else 
+		else
 		{
 			printf("%d ", numbers);
 		}
