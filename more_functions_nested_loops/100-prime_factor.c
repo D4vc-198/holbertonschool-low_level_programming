@@ -13,7 +13,7 @@ int main(void)
 	number = 612852475143;
 	max = -1;
 
-	while (numbers % 2 == 0)
+	while (number % 2 == 0)
 	{
 		max = 2;
 		n /= 2;
