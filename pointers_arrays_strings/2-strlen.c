@@ -3,5 +3,10 @@
 
 int _strlen(char *s)
 {
-	*s = strlen(s);
+	int lenght;
+
+	lenght = strlen(s);
+	*s = lenght;
+
+	return (0);
 }
