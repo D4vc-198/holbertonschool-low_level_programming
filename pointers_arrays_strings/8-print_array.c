@@ -3,10 +3,16 @@
 
 void print_array(int *a, int n)
 {
-	int contador;
+	int contador = 0;
 
-	for (contador = 0; contador <= n; contador++)
+	for (; contador < n; contador++)
 	{
-		printf("%d, ", a[contador]);
+		printf("%d", a[contador]);
+
+		if (contador != (n - 1))
+		{
+			printf(", ");
+		}
 	}
+	printf("\n");
 }
