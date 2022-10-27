@@ -3,13 +3,11 @@
 
 void rev_string(char *s)
 {
-	int i, j, size, contador;
-	char stringRev[];
+	int i, j, contador;
+	char stringRev[strlen(s)];
 
 	contador = 0;
 	i = 0;
-	size = 0;
-	size = strlen(s);
 
 	while (s[contador] != '\0')
 	{
