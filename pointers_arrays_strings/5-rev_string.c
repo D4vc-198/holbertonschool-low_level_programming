@@ -4,7 +4,8 @@
 void rev_string(char *s)
 {
 	char test[20];
-	int i = 0; x = 0;
+	int i = 0;
+	int x = 0;
 
 	x = strlen(s);
 
