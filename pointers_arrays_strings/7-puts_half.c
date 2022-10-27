@@ -14,17 +14,19 @@ void puts_half(char *str)
 
 	size = contador % 2;
 
-	if ( size == 0)
+	if (size == 0)
 	{
-		for( contador /= 2; str[contador] != '\0'; contador++)
+		for (contador /= 2; str[contador] != '\0'; contador++)
 		{
 			_putchar(str[contador]);
 		}
 	}
 
-	if (size != 0) {
+	if (size != 0)
+	{
 		contador = contador + 2;
-		for ( contador = (contador - 1) / 2; str[contador] != '\0'; contador++)
+
+		for (contador = (contador - 1) / 2; str[contador] != '\0'; contador++)
 		{
 			_putchar(str[contador]);
 		}
