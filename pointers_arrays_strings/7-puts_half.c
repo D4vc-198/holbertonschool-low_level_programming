@@ -22,7 +22,7 @@ void puts_half(char *str)
 		}
 	} else {
 		contador = contador - 1;
-		for ( contador = / 2; str[contador] != '\0'; contador++)
+		for ( contador /= 2; str[contador] != '\0'; contador++)
 		{
 			_putchar(str[contador]);
 		}
