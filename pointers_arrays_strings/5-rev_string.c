@@ -10,7 +10,7 @@ void rev_string(char *s)
 
 	for (i = x; i >= 0; i--)
 	{
-		test[i] = nombre[i];
+		test[i] = s[i];
 	}
 	
 	*s = *test;
