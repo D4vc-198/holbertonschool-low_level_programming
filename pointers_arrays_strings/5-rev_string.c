@@ -10,7 +10,7 @@ void rev_string(char *s)
 	size = 0;
 	size = strlen(s);
 
-	char stringRev[size];
+	char *stringRev;
 
 	while (s[contador] != '\0')
 	{
