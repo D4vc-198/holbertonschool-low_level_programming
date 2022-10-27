@@ -20,10 +20,11 @@ void puts_half(char *str)
 		{
 			_putchar(str[contador]);
 		}
-	} 
-	if (size == 1) {
+	}
+
+	if (size != 0) {
 		contador = contador - 1;
-		for ( contador /= 2; str[contador] != '\0'; contador++)
+		for ( contador = (contador - 1) / 2; str[contador] != '\0'; contador++)
 		{
 			_putchar(str[contador]);
 		}
