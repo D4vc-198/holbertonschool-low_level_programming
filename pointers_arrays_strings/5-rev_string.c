@@ -4,7 +4,7 @@
 void rev_string(char *s)
 {
 	int i, j, contador;
-	char stringRev[strlen(s)];
+	char stringRev[s];
 
 	contador = 0;
 	i = 0;
