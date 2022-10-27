@@ -3,25 +3,15 @@
 
 void rev_string(char *s)
 {
-	int i, j, contador;
-	char stringRev[100];
+	char test[20];
+	int i = 0; x = 0;
 
-	contador = 0;
-	i = 0;
+	x = strlen(s);
 
-	while (s[contador] != '\0')
+	for (i = x; i >= 0; i--)
 	{
-		contador++;
+		test[i] = nombre[i];
 	}
-	j = contador -1;
-
-	for (i = 0; i < contador; i++)
-	{
-		stringRev[i] = s[j];
-		j--;
-	}
-
-	*s = *stringRev;
-
-	_putchar('\n');
+	
+	*s = *test;
 }
