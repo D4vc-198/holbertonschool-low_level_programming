@@ -7,18 +7,22 @@
 void puts_half(char *str)
 {
 	int contador;
+	int size;
 
 	for (contador = 0; str[contador] != '\0'; contador++)
 		;
 
-	if (contador % 2 == 0)
+	size = contador % 2;
+
+	if ( size == 0)
 	{
 		for( contador /= 2; str[contador] != '\0'; contador++)
 		{
 			_putchar(str[contador]);
 		}
 	} else {
-		for ( contador = (contador - 1) / 2; str[contador] != '\0'; contador++)
+		contador = contador - 1;
+		for ( contador = / 2; str[contador] != '\0'; contador++)
 		{
 			_putchar(str[contador]);
 		}
