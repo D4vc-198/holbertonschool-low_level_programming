@@ -16,7 +16,7 @@ void print_times_table(int n)
 			_putchar(48);
 			for (num2 = 1; num2 <= n; num2++)
 			{
-				num3 = num1 * numb2;
+				num3 = num1 * num2;
 				_putchar(44);
 				_putchar(32);
 
