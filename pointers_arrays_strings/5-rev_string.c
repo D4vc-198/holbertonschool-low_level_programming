@@ -3,15 +3,22 @@
 
 void rev_string(char *s)
 {
-	char test[20];
-	int i = 0;
-	int x = 0;
+	char temporal;
+	int i, size, size1;
+	size= 0;
+	size1 = 0;
 
-	x = strlen(s);
-
-	for (i = x; i >= 0; i--)
+	while (s[size] != '\0')
 	{
-		*s[i];
+		size++;
 	}
 	
+	size1 = size - 1;
+	
+	for (i = 0; i < size / 2; i++)
+	{
+		temporal = s[i];
+		s[i] = s[size1];
+		s[size1--] = temporal;
+	}
 }
