@@ -4,17 +4,18 @@
 
 void print_rev(char *s)
 {
-	int length = strlen(s);
-	int i;
 
-	for (i = length - 1; i >= 0; i--)
+	int i, x;
+	i = 0;
+	x = 0;
+	
+	x=strlen(s);
+
+	for (i = x; i >= 0; i--)
 	{
-		if(s[i] == ' ')
-		{
-			s[i] = '\0';
-			printf("%s ", &(s[i]) + 1);
-		}
+		printf("%c", s[i]);
 	}
 
-	printf("%s", s);
+	printf("\n");
+
 }
