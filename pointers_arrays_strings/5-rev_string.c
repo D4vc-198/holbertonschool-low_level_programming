@@ -4,13 +4,12 @@
 void rev_string(char *s)
 {
 	int i, j, size, contador;
+	char stringRev[];
 
 	contador = 0;
 	i = 0;
 	size = 0;
 	size = strlen(s);
-
-	char *stringRev;
 
 	while (s[contador] != '\0')
 	{
@@ -23,7 +22,7 @@ void rev_string(char *s)
 		stringRev[i] = s[j];
 	}
 
-	*s = stringRev;
+	*s = *stringRev;
 
 	_putchar('\n');
 }
