@@ -19,7 +19,7 @@ int main(void)
 			printf("%ld, ", num2);
 		} else
 		{
-			printf("%ld\n", j);
+			printf("%ld\n", num2);
 		}
 
 		siguiente = num2 + num3;
