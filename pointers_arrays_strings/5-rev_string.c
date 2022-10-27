@@ -3,19 +3,27 @@
 
 void rev_string(char *s)
 {
-	int i, size;
-	char text[s];
+	int i, j, size, contador;
 
+	contador = 0;
 	i = 0;
 	size = 0;
 	size = strlen(s);
 
-	for (i = size -1; i >= 0; i --)
+	char stringRev[size];
+
+	while (s[contador] != '\0')
 	{
-		text[i] = s[i];
+		contador++;
+	}
+	j = contador -1;
+
+	for (i = 0; i < contador; i++)
+	{
+		stringRev[i] = s[j];
 	}
 
-	*s = text;
+	*s = stringRev;
 
 	_putchar('\n');
 }
