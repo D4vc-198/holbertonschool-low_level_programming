@@ -23,7 +23,6 @@ void puts_half(char *str)
 	}
 
 	if (size != 0) {
-		contador = contador - 1;
 		for ( contador = (contador - 1) / 2; str[contador] != '\0'; contador++)
 		{
 			_putchar(str[contador]);
