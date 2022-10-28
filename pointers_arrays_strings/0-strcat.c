@@ -1,5 +1,10 @@
 #include "main.h"
-
+/**
+ * _strcat - concatenates two strings.
+ * @dest: result of the concatenation
+ * @src: source string
+ * Return: dest result of the concatenation
+ */
 char *_strcat(char *dest, char *src)
 {
 	int i, j;
