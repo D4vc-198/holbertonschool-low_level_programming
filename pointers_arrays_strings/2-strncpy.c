@@ -9,7 +9,8 @@ char *_strncpy(char *dest, char *src, int n)
 		dest[contador] = src[contador];
 	}
 
-	dest[contador] = '\0';
+	for (; contador < n; i++)
+		dest[contador] = '\0';
 
 	return (dest);
 }
