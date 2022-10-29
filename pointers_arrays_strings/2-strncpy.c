@@ -1,17 +1,15 @@
 #include "main.h"
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strcpy(char *dest, char *src, int n)
 {
-	char* initial = dest;
+	int contador;
 
-	while (*src && n--)
+	for (contador = 0; *(src + contador) != '\0' && contador < n; contador++)
 	{
-		dest = src;
-		dest++;
-		src++;
+		dest[contador] = *(src + contador);
 	}
 
-	dest = '\0';
+	dest[contador] = '\0';
 
-	return (initial);
+	return (dest);
 }
