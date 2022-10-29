@@ -1,5 +1,11 @@
 #include "main.h"
-
+/**
+ * _strncpy - copies the string pointed to by src to dest
+ * @dest: dest to string
+ * @src: source string
+ * @n: number byte copies
+ * Return: dest
+ */
 char *_strncpy(char *dest, char *src, int n)
 {
 	int contador;
