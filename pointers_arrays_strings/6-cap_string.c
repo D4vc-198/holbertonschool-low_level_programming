@@ -14,9 +14,9 @@ char *cap_string(char *str)
 			{
 				str[c] = str[c] - 32;
 			}
-			i++
+			i++;
 		}
-		c++
+		c++;
 	}
 
 	return (str);
