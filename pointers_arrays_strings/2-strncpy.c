@@ -4,7 +4,7 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	char* initial = dest;
 
-	while (*src && num--)
+	while (*src && n--)
 	{
 		dest = src;
 		dest++;
