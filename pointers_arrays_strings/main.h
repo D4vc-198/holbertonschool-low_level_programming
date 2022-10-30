@@ -11,3 +11,4 @@ int _atoi(char *s);
 char *_strcat(char *_dest, char *src);
 char *_strncpy(char *dest, char *src, int n);
 void print_number(int n);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
