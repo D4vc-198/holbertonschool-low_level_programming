@@ -1,4 +1,4 @@
-#includes "main.h"
+#include "main.h"
 
 char *leet(char *str)
 {
