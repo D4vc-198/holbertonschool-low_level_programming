@@ -9,7 +9,7 @@ char *leet(char *str)
 	{
 		for (j = 0; j < 10; j += 2)
 		{
-			if ((str[i] == enconde[j] || str[i] == (encode[j] + 32)))
+			if ((str[i] == encode[j] || str[i] == (encode[j] + 32)))
 			{
 				str[i] = encode[j + 1];
 			}
