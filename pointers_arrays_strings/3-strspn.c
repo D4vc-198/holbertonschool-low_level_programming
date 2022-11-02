@@ -11,5 +11,23 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-		return (strspn(s, accept));
+	int i, j, coincidencia;
+
+	i = 0;
+	coincidencia = 0;
+
+	while (s[i] != '\0')
+	{
+		for (j = 0; accept[j] != '\0'; j++)
+		{
+			if (s[i] == accept[j])
+			{
+				coincidencia++;
+				break;
+			}
+		}
+		i++;
+	}
+
+	return (coincidencia);
 }
