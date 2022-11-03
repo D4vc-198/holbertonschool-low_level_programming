@@ -42,5 +42,5 @@ int is_palindrome(char *s)
 	length = _strlen(s);
 	if (length == 0 || *s != s[length - 1])
 		return (0);
-	return (palindrome(s, 0, len - 1));
+	return (palindrome(s, 0, length - 1));
 }
