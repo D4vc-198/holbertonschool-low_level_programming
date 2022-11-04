@@ -1,4 +1,12 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - print result of the multiplication
+ * @argc: number of arguments
+ * @argv: array of arguments
+ * Return: 1 Error or 0 Success
+ */
 
 int main(int argc, char *argv[])
 {
@@ -8,7 +16,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	else 
+	else
 	{
 		printf("%d", atoi(argv[1]) * atoi(argv[2]));
 		return (0);
