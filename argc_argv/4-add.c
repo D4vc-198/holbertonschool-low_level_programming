@@ -9,7 +9,7 @@
  * Return: 1 Error or 0 Success
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int i, j;
 	int numbers = 0;
