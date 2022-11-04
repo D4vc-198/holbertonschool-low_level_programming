@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
 		printf("Error");
 	else 
 	{
-		printf("%d", argv[1] * argv[2]);
+		printf("%d", (int)(argv[1] * argv[2]));
 	}
 
 	return (0);
