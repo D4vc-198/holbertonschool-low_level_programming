@@ -11,7 +11,7 @@ int digit(char *str)
 {
 	int i = 0;
 
-	while (str[])
+	while (str[i])
 	{
 		if (string[i] < '0' || string[i] > '9')
 			return (0);
