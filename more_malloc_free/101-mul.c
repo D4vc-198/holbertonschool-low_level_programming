@@ -70,7 +70,7 @@ int main (int argc, char *argv[])
 		for (lenght2 = _strlen(s2) - 1; lenght2 >= 0; lenght2--)
 		{
 			digit2 = s2[lenght2] - '0';
-			carrt += result[lenght1 + lenght2 + 1] + (digit1 * digit2);
+			carry += result[lenght1 + lenght2 + 1] + (digit1 * digit2);
 			result[lenght1 + lenght2 + 1] = carry % 10;
 			carry /= 10;
 		}
