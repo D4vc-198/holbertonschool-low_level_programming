@@ -48,9 +48,9 @@ int main (int argc, char *argv[])
 	int i, carry, digit1, digit2, *result, a = 0;
 
 	s1 = argv[1], s2 = argv[2];
-	if (argc != 3 || !is_digit(s1) || !is_digit(s2))
+	if (argc != 3 || !digit(s1) || !digit(s2))
 	{
-		pirntf("Error\n");
+		printf("Error\n");
 		exit(98);
 	}
 	lenght1 = _strlen(s1);
@@ -62,9 +62,9 @@ int main (int argc, char *argv[])
 		return (1);
 	for (i = 0; i < lenght1 + lenght2; i++)
 		result[i] = 0;
-	for (lenght1 = lenght1 - 1; lenght1 >= 0; lengh1--)
+	for (lenght1 = lenght1 - 1; lenght1 >= 0; lenght1--)
 	{
-		digit1 = s1[leght1] - '0';
+		digit1 = s1[lenght1] - '0';
 		carry = 0;
 
 		for (lenght2 = _strlen(s2) - 1; lenght2 >= 0; lenght2--)
