@@ -60,7 +60,7 @@ int main (int argc, char *argv[])
 
 	if (!result)
 		return (1);
-	for (i = 0; i < lenght1 + lenght2; i++)
+	for (i = 0; i <= lenght1 + lenght2; i++)
 		result[i] = 0;
 	for (lenght1 = lenght1 - 1; lenght1 >= 0; lenght1--)
 	{
