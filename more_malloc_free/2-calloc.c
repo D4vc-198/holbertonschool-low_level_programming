@@ -8,7 +8,7 @@
  * Return: pointer to the address of the memory
  */
 
-void *_calloc(unsinged int nmemb, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
 	char *memory;
