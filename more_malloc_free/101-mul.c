@@ -29,7 +29,7 @@ int _strlen(char *str)
 
 	while (str[i] != '\0')
 	{
-		i++
+		i++;
 	}
 	return (i);
 }
