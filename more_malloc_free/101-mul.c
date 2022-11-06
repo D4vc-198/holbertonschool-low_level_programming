@@ -13,7 +13,7 @@ int digit(char *str)
 
 	while (str[i])
 	{
-		if (string[i] < '0' || string[i] > '9')
+		if (str[i] < '0' || str[i] > '9')
 			return (0);
 		i++
 	}
