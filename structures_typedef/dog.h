@@ -1,5 +1,5 @@
 #ifndef DOG_FILE
-#ifndef DOG_FILE
+#define DOG_FILE
 
 struct dog {
 	char *name;
