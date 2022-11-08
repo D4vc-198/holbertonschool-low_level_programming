@@ -1,5 +1,5 @@
 /**
- * operation_add - add
+ * op_add - add
  * @num1: integer
  * @num2: integer
  * Return: num1 + num2
@@ -10,7 +10,7 @@ int op_add(int num1, int num2)
 }
 
 /**
- * operation_sub - substract
+ * op_sub - substract
  * @num1: integer
  * @num2: integer
  * Return: num1 - num2
@@ -21,7 +21,7 @@ int op_sub(int num1, int num2)
 }
 
 /**
- * operation_mod - mod for remainder
+ * op_mod - mod for remainder
  * @num1: integer
  * @num2: integer
  * Return: result
@@ -32,7 +32,7 @@ int op_mod(int num1, int num2)
 }
 
 /**
- * operation_div - divide
+ * op_div - divide
  * @num1: integer
  * @num2: integer
  * Return: num1 / num2
@@ -44,7 +44,7 @@ int op_div(int num1, int num2)
 }
 
 /**
- * operation_mult - multiply
+ * op_mul - multiply
  * @num1: integer
  * @num2: integer
  * Return: num1 * num2
