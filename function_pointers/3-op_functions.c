@@ -4,7 +4,7 @@
  * @num2: integer
  * Return: num1 + num2
  */
-int operation_add(int num1, int num2)
+int op_add(int num1, int num2)
 {
 	return (num1 + num2);
 }
@@ -15,7 +15,7 @@ int operation_add(int num1, int num2)
  * @num2: integer
  * Return: num1 - num2
  */
-int operation_sub(int num1, int num2)
+int op_sub(int num1, int num2)
 {
 	return (num1 - num2);
 }
@@ -26,7 +26,7 @@ int operation_sub(int num1, int num2)
  * @num2: integer
  * Return: result
  */
-int operation_mod(int num1, int num2)
+int op_mod(int num1, int num2)
 {
 	return (num1 % num2);
 }
@@ -38,7 +38,7 @@ int operation_mod(int num1, int num2)
  * Return: num1 / num2
  */
 
-int operation_div(int num1, int num2)
+int op_div(int num1, int num2)
 {
 	return (num1 / num2);
 }
@@ -49,7 +49,7 @@ int operation_div(int num1, int num2)
  * @num2: integer
  * Return: num1 * num2
  */
-int operation_mult(int num1, int num2)
+int op_mul(int num1, int num2)
 {
 	return (num1 * num2);
 }
