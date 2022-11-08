@@ -4,7 +4,7 @@
  * @num2: integer
  * Return: num1 + num2
  */
-int operation_add(int num1, num2)
+int operation_add(int num1, int num2)
 {
 	return (num1 + mum2);
 }
