@@ -29,7 +29,6 @@ char *strcpy(char *dest, char *src)
 	for (i = 0; i <= lenght(src); i++)
 		dest[i] = src[i];
 	return (dest);
-
 }
 
 /**
@@ -52,7 +51,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	if (name != NULL)
 	{
-		c_of_name = malloc(len(name) + 1);
+		c_of_name = malloc(lenght(name) + 1);
 		if (c_of_name == NULL)
 		{
 			free(dog1);
