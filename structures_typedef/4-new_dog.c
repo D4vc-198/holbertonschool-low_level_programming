@@ -17,7 +17,7 @@ int lenght(char *str)
 }
 
 /**
- * strcpy - copies the string pointed to src
+ * _strcpy - copies the string pointed to src
  * @dest: dest of string
  * @src: source string
  * Return: copy string
