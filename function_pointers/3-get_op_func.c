@@ -12,7 +12,7 @@ int (*get_op_func(char *s))(int num1, int num2)
 	op_t ops[] = {
 		{"+", op_add},
 		{"-", op_sub},
-		{"*", op_mult},
+		{"*", op_mul},
 		{"/", op_div},
 		{"%", op_mod},
 		{NULL, NULL}
