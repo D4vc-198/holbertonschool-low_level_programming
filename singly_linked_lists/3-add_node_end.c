@@ -9,9 +9,9 @@ int _strlen(const char *str)
 {
 	int lenght;
 
-	for (len = 0; str[len] != '\0'; len++)
+	for (lenght = 0; str[lenght] != '\0'; lenght++)
 		;
-	return (len);
+	return (lenght);
 }
 
 /**
