@@ -1,7 +1,7 @@
 /**
  * set_bit - sets the value of a bit
  * @n: pointer to a number
- * @index: index
+ * @index: index (0)
  * Return: 1 (Sucess) else -1
  */
 
