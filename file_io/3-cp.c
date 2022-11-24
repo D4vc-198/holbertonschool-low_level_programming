@@ -1,3 +1,4 @@
+#include "main.h"
 
 /**
  * __exit - prints error messages and exits with exit value
