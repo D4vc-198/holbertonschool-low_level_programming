@@ -38,7 +38,6 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 
 	block = sqrt((int)size);
 
-
 	while (runner->n < value)
 	{
 		prev = runner;
@@ -68,12 +67,10 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 				return (NULL);
 			}
 		}
-
 		if (prev->n == value)
 		{
 			printf("Value checked at index [%lu] = [%d]\n",
 			       prev->index, prev->n);
-
 			return (prev);
 		}
 		printf("Value checked at index [%lu] = [%d]\n",
